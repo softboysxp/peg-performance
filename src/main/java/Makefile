@@ -3,7 +3,7 @@ all:
 	javac ca/tjug/talks/performance/GameState.java
 	javac ca/tjug/talks/performance/Move.java
 	javac ca/tjug/talks/performance/SolutionFinder.java
-	echo -e "#!/bin/bash\n java ca.tjug.talks.performance.SolutionFinder" > ./performance
+	echo "#!/bin/bash\njava ca.tjug.talks.performance.SolutionFinder" > ./performance
 	chmod +x ./performance
 
 clean:  

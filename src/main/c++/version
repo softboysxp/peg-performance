@@ -1,0 +1,3 @@
+#!/bin/bash
+version=`g++ --version | head -1`
+echo "C++  -  $version"

@@ -1,3 +1,0 @@
-#!/bin/bash
-version=`python --version 2>&1 | tail -1`
-echo -e "Python - $version"
